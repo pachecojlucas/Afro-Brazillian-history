@@ -7,7 +7,7 @@ def app():
     #pegando os data frames
     df = pd.read_excel('Atlantic_Slave_Trade_Brazil.xlsx')
 
-    df2 = pd.read_excel('AfricanNamesDatabase.xls')
+    df2 = pd.read_excel('AfricanNamesDatabase.xlsx')
 
 
     #calculando a media das variaveis quantitativas
