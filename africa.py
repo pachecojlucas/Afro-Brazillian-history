@@ -22,7 +22,7 @@ def app():
 
     #Gráfico de linhas
 
-    st.write("Gráfico do datebase: Atlantic_Slave_Trade_Brazil")
+    st.write("Gráficos do datebase: Atlantic_Slave_Trade_Brazil")
 
     linha = px.line(tabela, x="Year of arrival at port of disembarkation", 
     y="Total disembarked", title= "Captive people arriving per year")
@@ -37,7 +37,7 @@ def app():
 
     st.plotly_chart(number)
 
-    st.write("Gráfico do datebase: AfricanNamesDatabase")
+    st.write("Gráficos do datebase: AfricanNamesDatabase")
     number = px.bar(x=x_c, y=y_c, color=x_c,
     title= "Native 'home country' of captive people")         
 
